@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "desafiocni": {
+      "hosting": {
+        "desafioCNI": [
+          "desafiocni"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "desafiocni"
+  }
+}

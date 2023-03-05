@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>
+        Desafio CNI
+    </title>
+</head>
+<body>
+    <div id ="login-box">
+        <div class="left">
+
+            <form #RegisterForm ="ngForm" (ngSubmit)="registerUser(RegisterForm.value)">
+            <h1>Cadastro de Usuario</h1>
+
+            <input type="text" ngModel id="username" name="username" placeholder="Nome de Usuário">
+            <input type="text" ngModel id="cpf" name="cpf" placeholder="CPF">
+            <input type="text" ngModel id="email" name="email" placeholder="Email">
+            <input type="text" ngModel id="phone" name="phone" placeholder="Telefone">
+            <input type="text" ngModel id="password" name="password" placeholder="Senha">
+            <input type="text" ngModel id="avatar" name="avatar" placeholder="Avatar Link">
+
+            <input type="submit" id="saveData" name="sign_submit" value="Registrar Usuário">
+
+            </form>
+        
+        </div>
+    </div>
+</body>
+</html>
